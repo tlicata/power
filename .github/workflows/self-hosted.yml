@@ -27,6 +27,13 @@ jobs:
       - name: Generate Report
         run: ./generate-report.ps1
 
+      # Upload an artifact
+      - name: Upload an artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Report
+          path: report.txt
+
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: Write-Host "Hello, world!"
