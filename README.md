@@ -12,10 +12,10 @@ By default, actions are run on [GitHub Hosted Runners][github-hosted-runners]
 ephemeral and each run gets a fresh machine. You can [host your own
 runners][host-your-own-runners] for more control.
 
-This repo contains two workflows: hello and goodbye. The first runs on GitHub
-and the second runs on a self-hosted runner. The self-hosted runner was setup by
-following the above docs, specifically by going to GitHub's repository-level
-Settings -> Actions -> Runners -> "New self-hosted runner".
+This repo contains two workflows. One runs on GitHub and the other runs on a
+self-hosted runner. The self-hosted runner was setup by following the above
+docs, specifically by going to GitHub's repository-level Settings -> Actions ->
+Runners -> "New self-hosted runner".
 
 [learn-github-actions]: https://docs.github.com/en/actions/learn-github-actions
 [github-hosted-runners]: https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
