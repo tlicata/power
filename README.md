@@ -17,6 +17,9 @@ self-hosted runner. The self-hosted runner was setup by following the above
 docs, specifically by going to GitHub's repository-level Settings -> Actions ->
 Runners -> "New self-hosted runner".
 
+Each workflow generates a report then uploads it as an [artifact][artifacts].
+
 [learn-github-actions]: https://docs.github.com/en/actions/learn-github-actions
 [github-hosted-runners]: https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
 [host-your-own-runners]: https://docs.github.com/en/actions/hosting-your-own-runners
+[artifacts]: https://github.com/actions/upload-artifact
