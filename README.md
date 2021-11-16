@@ -19,7 +19,13 @@ Runners -> "New self-hosted runner".
 
 Each workflow generates a report then uploads it as an [artifact][artifacts].
 
+The [Pester][pester] unit tests provide an example of including tests in a
+workflow. GitHub provided [documentation][pester-github] for this approach as
+well.
+
 [learn-github-actions]: https://docs.github.com/en/actions/learn-github-actions
 [github-hosted-runners]: https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
 [host-your-own-runners]: https://docs.github.com/en/actions/hosting-your-own-runners
 [artifacts]: https://github.com/actions/upload-artifact
+[pester]: https://pester.dev/docs/quick-start
+[pester-github]: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-powershell

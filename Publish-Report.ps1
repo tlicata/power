@@ -1,1 +1,5 @@
-Out-File -FilePath report.txt -InputObject "Report generated on $(hostname) at $(Get-Date)"
+function Get-Report {
+    "Report generated on $(hostname) at $(Get-Date)"
+}
+
+Get-Report | Out-File -FilePath report.txt
