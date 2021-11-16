@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Main
+name: Cloud
 
 # Controls when the workflow will run
 on:
@@ -16,12 +16,7 @@ jobs:
   # This workflow contains a single job called "benchmark"
   benchmark:
     # The type of runner that the job will run on
-    runs-on: ${{matrix.os}}
-
-    # The job will run for each matrix combination
-    strategy:
-      matrix:
-        os: [windows-latest, self-hosted]
+    runs-on: windows-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
