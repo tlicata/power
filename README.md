@@ -12,10 +12,10 @@ By default, actions are run on [GitHub Hosted Runners][github-hosted-runners]
 ephemeral and each run gets a fresh machine. You can [host your own
 runners][host-your-own-runners] for more control.
 
-This repo contains two workflows. One runs on GitHub and the other runs on a
-self-hosted runner. The self-hosted runner was setup by following the above
-docs, specifically by going to GitHub's repository-level Settings -> Actions ->
-Runners -> "New self-hosted runner".
+This repo contains one workflow that runs twice: once on GitHub and once on a
+self-hosted runner (see [matrix:os][matrix-os]). The self-hosted runner was
+setup by following the above docs, specifically by going to GitHub's
+repository-level Settings -> Actions -> Runners -> "New self-hosted runner".
 
 Each workflow generates a report then uploads it as an [artifact][artifacts].
 
@@ -26,6 +26,7 @@ well.
 [learn-github-actions]: https://docs.github.com/en/actions/learn-github-actions
 [github-hosted-runners]: https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
 [host-your-own-runners]: https://docs.github.com/en/actions/hosting-your-own-runners
+[matrix-os]: https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#example-running-with-multiple-operating-systems
 [artifacts]: https://github.com/actions/upload-artifact
 [pester]: https://pester.dev/docs/quick-start
 [pester-github]: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-powershell
