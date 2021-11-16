@@ -1,5 +1,5 @@
 function Get-Report {
-    "Report generated at $(Get-Date)"
+    "Report generated on $(hostname) at $(Get-Date)"
 }
 
 Get-Report | Out-File -FilePath report.txt
