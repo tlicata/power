@@ -27,6 +27,10 @@ jobs:
       - name: Publish Report
         run: ./Publish-Report.ps1
 
+      # Run tests
+      - name: Unit Test
+        run: Invoke-Pester -Passthru
+
       # Upload an artifact
       - name: Upload an artifact
         uses: actions/upload-artifact@v2
