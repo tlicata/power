@@ -25,7 +25,7 @@ jobs:
 
       # Generate Report
       - name: Generate Report
-        run: ./generate-report.ps1
+        run: ./Generate-Report.ps1
 
       # Upload an artifact
       - name: Upload an artifact
