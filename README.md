@@ -1,11 +1,10 @@
 An example project for learning GitHub Actions
 ----------------------------------------------
 
-Mostly followed the [Learn GitHub Actions][learn-github-actions] article.
+Followed the [Learn GitHub Actions][learn-github-actions] article.
 
-The files in the `.github/workflows` directory define the actions. If they
-contain a `push:` section, then the actions will be run when changes are pushed
-to GitHub.
+The files in `.github/workflows` define the actions. If they contain a `push:`
+section then the actions will be run when changes are pushed to GitHub.
 
 By default, actions are run on [GitHub Hosted Runners][github-hosted-runners]
 (Windows or Linux virtual machines on Microsoft Azure). However, these are
@@ -20,8 +19,7 @@ Runners -> "New self-hosted runner".
 Each workflow generates a report then uploads it as an [artifact][artifacts].
 
 The [Pester][pester] unit tests provide an example of including tests in a
-workflow. GitHub provided [documentation][pester-github] for this approach as
-well.
+workflow. GitHub provided [documentation][pester-github] as well.
 
 [learn-github-actions]: https://docs.github.com/en/actions/learn-github-actions
 [github-hosted-runners]: https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
