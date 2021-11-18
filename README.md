@@ -8,7 +8,7 @@ section then the actions will be run when changes are pushed to GitHub.
 
 By default, actions are run on [GitHub Hosted Runners][github-hosted-runners]
 (Windows or Linux virtual machines on Microsoft Azure). However, these are
-ephemeral and each run gets a fresh machine. You can [host your own
+ephemeral - each run gets a fresh machine. You can [host your own
 runners][host-your-own-runners] for more control.
 
 This repo contains two workflows. One runs on GitHub and the other runs on a
